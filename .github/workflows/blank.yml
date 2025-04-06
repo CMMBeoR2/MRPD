@@ -19,5 +19,5 @@ jobs:
         run: |
           Invoke-WebRequest -Uri "https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-stable-windows-amd64.zip" -OutFile "ngrok.zip"
           Expand-Archive ngrok.zip -DestinationPath .
-          ./ngrok.exe authtoken 1s4I38FX4oYMJkTZxIPCDPR8MPn_647oQ6MpTN48NgVZQTNBv
+          ./ngrok.exe authtoken 2tWqdFk1HJ7f9TaLBqVReUm6TJ0_4xH9p2rJCRBhyaoCSS1de
           ./ngrok.exe tcp 3389
